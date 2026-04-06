@@ -1,18 +1,5 @@
-## Getting Started
+Este proyecto consiste en un simulador de duelos por turnos inspirado en Yu-Gi-Oh!, desarrollado en Java. El objetivo principal es reducir los Puntos de Vida (LP) del adversario de 8000 a 0 o ganar si el oponente se queda sin cartas en su mazo. El sistema permite a dos jugadores humanos enfrentarse utilizando una combinación de cartas de monstruos, que poseen estadísticas de ataque y defensa, y cartas mágicas que activan efectos especiales como la recuperación de salud, el robo de cartas adicionales o la destrucción masiva del campo enemigo.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Para ejecutar el juego, primero se deben compilar todos los archivos del proyecto. Una vez compilados le damos al boton de ejecutar lo que nos desplegará la interfaz de nuestro juego en la consola. El sistema solicitará los nombres de los duelistas y barajará automáticamente un mazo de 20 cartas para cada uno, seleccionando de forma aleatoria quién comienza el primer turno.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Durante el desarrollo del duelo, el jugador activo tiene un menú de opciones donde puede decidir entre jugar una carta de su mano o pasar el turno. Si se invoca un monstruo, este podrá atacar a las criaturas del oponente o directamente a sus puntos de vida si el campo enemigo está vacío. Las cartas mágicas ejecutan su descripción técnica apenas son jugadas, alterando el estado del juego según su efecto programado. El programa valida cada entrada numérica del usuario para asegurar que las acciones sean legales dentro de las reglas establecidas y asi se comporta nuestro codigo
