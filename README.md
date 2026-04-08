@@ -5,3 +5,6 @@ Para ejecutar el juego, primero se deben compilar todos los archivos del proyect
 Durante el desarrollo del duelo, el jugador activo tiene un menú de opciones donde puede decidir entre jugar una carta de su mano o pasar el turno. Si se invoca un monstruo, este podrá atacar a las criaturas del oponente o directamente a sus puntos de vida si el campo enemigo está vacío. Las cartas mágicas ejecutan su descripción técnica apenas son jugadas, alterando el estado del juego según su efecto programado. El programa valida cada entrada numérica del usuario para asegurar que las acciones sean legales dentro de las reglas establecidas y asi se comporta nuestro codigo.
 
 Gracias.
+
+Juan David Correa Zapata - 2459431
+Juelz Santiago Zapata Bedoya - 2559814
